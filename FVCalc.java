@@ -1,4 +1,3 @@
-// Computes the future value of a saving investment.
 
 public class FVCalc {
 
@@ -10,6 +9,6 @@ public class FVCalc {
         rate = rate / 100;
         double futureValue = currentValue * (Math.pow((1 + rate), 2));
         System.out.println("After " + years + " years, $" + currentValue + " at "
-                + rate * 100 + "% will yield $" + (int)(futureValue));
+                + rate * 100 + "% will yield $" + (int) (futureValue));
     }
 }
