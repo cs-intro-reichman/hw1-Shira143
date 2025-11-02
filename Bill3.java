@@ -9,7 +9,7 @@ public class Bill3 {
         int value = Integer.parseInt(args[3]);
         double divide = ((double) value) / 3;
         divide = Math.ceil(divide);
-        System.out.println("Dear " + name3 + "," + name2
-                + ", and " + name1 + ": pay " + divide + " in shekels each.");
+        System.out.println("Dear " + name3 + ", " + name2
+                + ", and " + name1 + ": pay " + divide + " in Shekels each.");
     }
 }
